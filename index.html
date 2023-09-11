@@ -1,145 +1,133 @@
 <!DOCTYPE html>
-
-<html>
-  <head>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./resources/CSS/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
-    <title>Avalanche</title>
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet">
+    <title>Jesse Vahlfors</title>
+</head>
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <nav>
+                <h2 class="logo">Jesse Vahlfors</h2>
+                <button class="button">
+                    <img src="./Resources/icons/day-and-night.png" alt="Night and day icon" id="pic">
+                </button>
+                <uL class="nav-items">
+                    <li><a href="#aboutMe" class="nav">About Me</a></li>
+                    <li><a href="#projects" class="nav">Projects</a></li>
+                    <li><a href="#skills" class="nav">Skills</a></li>
+                    <li><a href="#contact" class="nav">Contact</a></li>
+                </uL>
+            </nav>
+            <section >
+               
+                <h2>About Me</h2>
+                <div id="aboutMe">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <img src="./Resources/Pictures/profile.jpg" alt="Picture of me" id="profilePic">
+                </div>
+            </section>
+            <section>
+                <h2>Projects</h2>
+                <div id="projects">
+                    <details class="project">
+                        <summary class="project-title">
+                            <h2>Project 1</h2>
+                        </summary>
+                        <div class="description">    
+                            <p>Project 1
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <img src="./Resources/icons/Ableton-Dark.svg" alt="">
+                        </div>
+                    </details>
+                    <details class="project">
+                        <summary class="project-title">
+                            <h2>Project 2</h2>
+                        </summary>
+                        <div class="description">    
+                            <p>Project 2
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <img src="./Resources/icons/ActivityPub-Light.svg" alt="">
+                        </div>
+                    </details>
+                    <details class="project">
+                        <summary class="project-title">
+                            <h2>Project 3</h2>
+                        </summary>
+                        <div class="description">    
+                            <p>Project 3
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <img src="./Resources/icons/AiScript-Light.svg" alt="">
+                        </div>
+                    </details>
+                </div>
+            </section>
+            <section >
+                <h2>Skills</h2>
+                <div id="skills">
+                    <div class="tooltip">
+                        <img src="./Resources/icons/HTML.svg" alt="HTML icon" >
+                        <span class="tooltiptext">HTML</span>
+                    </div>
+                    <div class="tooltip">
+                        <img src="./Resources/icons/CSS.svg" alt="CSS icon">
+                        <span class="tooltiptext">CSS</span>
+                    </div>
+                    <div class="tooltip">
+                        <img src="./Resources/icons/JavaScript.svg" alt="Javascript icon">
+                        <span class="tooltiptext">Javascript</span>
+                    </div>
+                    <div class="tooltip">
+                        <img src="./Resources/icons/Git.svg" alt="Git icon">
+                        <span class="tooltiptext">Git</span>
+                    </div>
+                    <div class="tooltip">
+                        <img src="./Resources/icons/Github-Light.svg" alt="Github icon">
+                        <span class="tooltiptext">Github</span>
+                    </div>
+                    
+                    
+            
+                    
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <div class="contact-container">
+                    <img src="./Resources/icons/LinkedIn.svg" alt="LinkedIn icon">
+                    <a href="https://www.linkedin.com/in/jesse-vahlfors-752bab195/">Jesse Vahlfors</a>
+                </div>
+                <div class="contact-container">
+                    <img src="./Resources/icons/Github-Light.svg" alt="Github icon">
+                    <a href="https://github.com/JesseVahlfors">Jesse Vahlfors</a>
+                </div>
+                <div class="contact-container">
+                    <img src="./Resources/icons/Discord.svg" alt="Discord icon">
+                    <a href="https://www.discordapp.com/users/163203950877736961">Raikas</a>
+                </div>
+                <div class="contact-container">
+                    <img src="./Resources/icons/email.png" alt="email icon">
+                    <a href="mailto:jesse.vahlfors@gmail.com">Jesse Vahlfors</a>
+                </div>
 
-  <body>
-    <header>
-      <div class="header-container">
-        <img src="./resources/Images/Avalanchelogo.png" alt="Avalanche logo">
-        <h2>Avalanche is an organization dedicated to protecting the planet.</h2>
-        <div class="table">
-          <ul>
-            <li><a href="#ideology">Mission</a></li>
-            <li><a href="#group">Our Members</a></li>
-            <li><a href="#location">Our Base</a></li>
-            <li><a href="#join">Join us!</a></li>
-          </ul>
+            </section>
         </div>
-      </div>
-    </header>
-    <main>
-
-      <!-- Article -->
-
-      <div class="mission">
-        <div class="ideology" id="ideology">
-          <h2>Our Mission</h2>
-          <p>Are you ready to join the fight against Shinra? Are you tired of standing idly by while the planet is plundered for its resources? <br>
-             <span> Then Avalanche wants you!</span><br>
-             We are a passionate group of freedom fighters dedicated to protecting the planet and striking back against the corrupt Shinra Electric Power Company. <br>
-              Our mission is to put an end to their destructive ways and preserve the world for future generations. <br>
-               As a member of Avalanche, you'll work alongside some of the most talented and dedicated fighters in the world. You'll embark on dangerous missions, hone your combat skills, and make a real difference in the fight for a better future. <br>
-                Join us and be a part of something bigger than yourself. <br> <br> <span> <a href="#join"> Join Avalanche today!</a></span></p>
-        </div>
-        <div class="aside-div">
-          <aside class="aside">
-            <figure>
-            <img src="./resources/Images/Mako reactor.jpg" alt="Mako Reactor">
-            <figcaption>These Mako Reactors are sucking the lifeblood of our planet!</figcaption>
-            </figure>
-          </aside>
-          <aside class="aside">
-            <figure>
-            <img src="./resources/Images/Shinra.jpg" alt="Shinra office">
-            <figcaption>Shinra HQ</figcaption>
-            </figure>
-          </aside>
-        </div>
-        
-      <!-- Members section -->   
-      
-      </div>
-      <h2 id="group">Our Members</h2>
-      <div class="group" >
-        <div class="group-container barret">
-          <img src="./resources/Images/Barret.jpg" alt="Barret Wallace">
-          <h3>Barret Wallace</h3>
-          <p>A passionate and determined leader, Barret is the founder of Avalanche and a skilled fighter with a machine gun arm. He is fiercely dedicated to the cause of protecting the planet from Shinra's exploitation and will stop at nothing to achieve his goals.</p>
-        </div>
-        <div class="group-container tifa">
-          <img src="./resources/Images/Tifa.jpg" alt="Tifa Lockhart">
-          <h3>Tifa Lockhart</h3>
-          <p>A talented martial artist and the proprietor of Seventh Heaven Bar, Tifa is a loyal friend and a valued member of Avalanche. She is known for her quick reflexes, impressive strength, and unwavering dedication to the cause.</p>
-        </div>
-        <div class="group-container biggs">
-          <img src="./resources/Images/Biggs.jpg" alt="Biggs">
-          <h3>Biggs</h3>
-          <p>One of the key members of Avalanche's tactical team, Biggs is a skilled engineer and a trusted ally to Barret. He is responsible for designing and building many of the team's weapons and gadgets, and his technical expertise is a valuable asset in the fight against Shinra.</p>
-        </div>
-        <div class="group-container wedge">
-          <img src="./resources/Images/Wedge.jpg" alt="Wedge">
-          <h3>Wedge</h3>
-          <p> A gifted hacker and tech expert, Wedge is an essential member of Avalanche's intelligence-gathering team. He is responsible for infiltrating Shinra's systems and gathering information that the team needs to plan their missions.</p>
-        </div>
-        <div class="group-container jessie">
-          <img src="./resources/Images/Jessie.jpg" alt="Jessie Raspberry">
-          <h3>Jessie Raspberry</h3>
-          <p>Jessie is Avalanche’s go-to tech whiz: hacking, faking IDs―you name it, she does it! <br> A clever and resourceful member of Avalanche, Jessie is a master of explosives and a key player in many of the team's plans. <br> She is an expert in demolitions and is responsible for creating and executing many of the team's most daring operations.</p>
-        </div>
-      </div>
-
-      <!-- location section -->
-
+        <footer>
+            <p>Made by me</p>
+            <p>The skills iconset was created by <a href="https://github.com/tandpfun">Thijs [Coding]</a></p>
+        </footer>
+    </div> 
     
-      <h2>Our Base</h2>
-      <div class="location" id="location">
-        <div class="location-container">
-          <img src="./resources/Images/Sector 7.jpg" alt="Sector seven">
-          <p>Welcome to Sector 7, the bustling and vibrant neighborhood nestled in the heart of Midgar! <br>
-            Looking for excitement and adventure? Look no further than Sector 7! With its lively bars, bustling streets, and diverse population, Sector 7 is the place to be for those who crave the thrill of urban living. <br>
-            And don't forget about the Sector 7 slums, where the hard-working and resilient residents make their homes. These industrious folk keep the city running, and their spirit is an inspiration to all. <br>
-            So come on down to Sector 7, where the lights are bright, the music is loud, and the adventure never stops!</p>
-        </div>
-        <div class="location-container">
-          <img src="./resources/Images/Sevent-heaven.jpg" alt="Seventh Heaven">
-          <p>As the sun sets over Midgar, the neon glow of Seventh Heaven Bar beckons you in. <br>
-            Step inside and immerse yourself in the lively atmosphere of this iconic hangout. <br>
-            Savor the delicious aromas of food and drink, and soak up the sounds of music and laughter. <br><br>
-            Take a seat at the bar and enjoy a frothy beer, or indulge in a plate of steaming hot food. With its warm, inviting ambiance and friendly patrons, Seventh Heaven Bar is the perfect place to unwind and let your worries fade away. Come and experience the magic of this legendary bar for yourself.
-          </p>
-        </div>
-        <div class="location-container">
-          <img src="./resources/Images/seventh_heaven_tifa.webp" alt="Tifa serving at the bar">
-          <p> Meet Tifa Lockhart, the heart and soul of Seventh Heaven Bar. <br>
-             As the proprietor of this legendary establishment, Tifa is known for her warm and welcoming demeanor, her exceptional bartending skills, and her fierce loyalty to her friends and customers. <br> 
-             With her striking beauty and no-nonsense attitude, Tifa commands respect and admiration from all who know her. <br>
-             Whether you're looking for a cold drink, a hot meal, or just some friendly conversation, Tifa is always happy to oblige. <br>
-             Stop by Seventh Heaven Bar and experience the magic of Tifa's hospitality for yourself!</p>
-        </div>
-        
-      </div>
-
-      <!-- Join Section -->
-
-      <div class="join" id="join">
-      <h3>Only by working together. <br> We can save the planet!</h3>
-      <button>Join now!</button>
-      </div> 
-    </main>
-
-    <!-- Footer -->
-
-    <footer>
-      <p>Copyright Jessie Rasberry 2023</p>
-      <ul>
-        <li>Avalanche</li>
-        <li>7th Heaven, Sector 7 slums</li>
-        <li>Midgar</li>
-      </ul>
-      <p>Not affiliated with Avalanche HQ</p>
-      <figure>
-      <a href="#top"><img src="./resources/Images/arrow.png" alt="Up Arrow"></a>
-      <figcaption>Back to top</figcaption>
-      </figure>
-    </footer>
-  </body>
+</body>
+<script src="script.js"></script>
 </html>

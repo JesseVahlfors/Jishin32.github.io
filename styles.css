@@ -1,0 +1,204 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: rgb(20, 44, 82);
+}
+
+button {
+    height: 10em;
+    background-color: rgb(181, 212, 253);
+    border-style: hidden;
+}
+
+button img:hover {
+    height: 10.5em;
+    width: auto;
+}
+
+button img:active {
+    transform: translateY(4px);
+  }
+
+button img {
+ width: 10em;
+}
+
+#profilePic {
+    max-height: 300px;
+    border-radius: 40px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100%;
+    background-color: rgb(181, 212, 253);
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+h2 {
+    padding: .5em;
+    font-family: Roboto Slab, sans-serif;
+}
+
+p, span, nav {
+    font-family: Roboto Slab, sans-serif;  
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 10em;
+    justify-content: space-between;
+}
+
+#aboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+#aboutMe p {
+max-width: 70%;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1em;
+}
+
+#projects p {
+    max-width: 70%;
+}
+
+.project {
+    display: flex;
+}
+
+.project-title {
+    display: flex;
+    width: 14em;
+    justify-content: center;
+}
+
+.project-title img {
+    width: 10em;
+}
+
+.description {
+    display: flex;
+}
+
+#skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    padding: 5px;
+    width: 10em;
+    background-color: azure;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    height: 3em;
+    width: 100%;
+    background-color: rgb(181, 212, 253);
+    z-index: 2;
+    border-top: solid 2px rgb(20, 44, 82);
+}
+/*.logo {
+    margin: 0;
+}*/
+.nav-items {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+li {
+    padding: .5em;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-family: Roboto Slab, sans-serif;
+}
+
+img {
+    margin: 5px;
+}
+
+#skills img {
+    width: 5em;
+    padding: 1em;
+}
+
+#contact img {
+    width: 2em;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: azure;
+    color: #0d1f52;
+    text-align: center;
+    padding: 5px 0;
+    border: 2px solid darkblue;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #aboutMe  {flex-wrap: wrap;} 
+    .description {flex-wrap: wrap; flex-direction: column-reverse; align-content: center;}
+    #contact h2 { flex: 0 0 100%; }
+    footer { position: relative; flex-wrap: wrap; height: auto;}
+    nav {justify-content: center; height: auto; flex-wrap: wrap;}
+  }
